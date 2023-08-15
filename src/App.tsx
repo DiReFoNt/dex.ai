@@ -1,10 +1,10 @@
 import React from "react";
-import "./App.css";
+import { Main } from "./components/index";
 
 function App() {
     return (
-        <div className="bg-">
-            <h1>Hello World</h1>
+        <div className="">
+            <Main/>
         </div>
     );
 }
