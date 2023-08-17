@@ -1,21 +1,32 @@
 import React from "react";
 import { NavBar } from "./index";
 import { ButtonBlue, ButtonGrey } from "../UI/index";
+import lax from 'lax.js'
 
-const Main = () : React.ReactElement => {
+const Main: React.FC = () => {
     return (
         <main className="bg-[#1F222C]  flex flex-col items-center">
             <NavBar />
-            <h1 className="text-[#F2F2F2] text-[100px] font-semibold leading-[100px] h-[228px] mt-[245px] justify-center text-center">
+            <h1 className="text-[#F2F2F2] text-[100px] font-semibold leading-[100px] h-[228px] mt-[245px] justify-center text-center animate__animated animate__fadeInDown animate__delay-2s">
                 Email, done right.
                 <br /> Lightning Fast Mail Client
             </h1>
-            <h2 className="w-[516px] text-[#9EA4B2] font-normal text-[24px] justify-center text-center mt-[31px]">
+            <h2 className="w-[516px] text-[#9EA4B2] font-normal text-[24px] justify-center text-center mt-[31px] animate__animated animate__bounceInUp animate__delay-3s">
                 The best personal email client. Revolutionary email for teams.
             </h2>
             <div className="mt-[64px] font-semibold text-[16px]">
-                <ButtonBlue text="Request Demo" width="230px" heigth="60px" />
-                <ButtonGrey text="Try hoverbox for free" />
+                <ButtonBlue
+                    text="Request Demo"
+                    width="230px"
+                    heigth="60px"
+                    link="#"
+                    styles="animate__animated animate__lightSpeedInLeft animate__delay-3s"
+                />
+                <ButtonGrey
+                    text="Try hoverbox for free"
+                    link="#"
+                    styles="animate__animated animate__lightSpeedInRight animate__delay-3s"
+                />
             </div>
             <div className="w-[100%] bg-[#1A1923] mt-[300px] flex flex-col justify-center items-center">
                 <div>
@@ -32,7 +43,8 @@ const Main = () : React.ReactElement => {
                 </div>
                 <ButtonGrey
                     text="Our customers"
-                    styles="mt-[60px] mb-[130px]"
+                    link="#"
+                    styles="mt-[60px] mb-[130px] "
                 />
             </div>
         </main>
