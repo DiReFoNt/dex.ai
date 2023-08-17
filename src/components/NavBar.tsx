@@ -1,6 +1,6 @@
 import React from "react";
 
-const NavBar = () => {
+const NavBar = () : React.ReactElement => {
     return (
         <nav className="flex flex-row flex-nowrap pt-[77px] items-center justify-evenly">
             <a href="#" className="mr-[250px] hover:scale-105 duration-300">

@@ -19,6 +19,9 @@
         @apply mr-[50px] hover:opacity-75 duration-300;
     }
     .blue-button {
-            
+        @apply rounded-[10px] border-[#3B38FF] border-2 mr-[30px] bg-[#3B38FF] text-white hover:bg-opacity-0 duration-300;
+    }
+    .grey-button {
+        @apply rounded-[10px] border-[#37335F] border-2 text-[#9EA4B2] hover:text-[#1F222C] hover:bg-white duration-500 transition-all ease-in-out
     }
 }

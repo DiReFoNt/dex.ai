@@ -47,4 +47,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 Tasks:
-Create in one class style buttons
+Create slider with customers

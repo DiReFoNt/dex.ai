@@ -1,7 +1,8 @@
 import React from "react";
 import { NavBar } from "./index";
+import { ButtonBlue, ButtonGrey } from "../UI/index";
 
-const Main = () => {
+const Main = () : React.ReactElement => {
     return (
         <main className="bg-[#1F222C]  flex flex-col items-center">
             <NavBar />
@@ -13,23 +14,26 @@ const Main = () => {
                 The best personal email client. Revolutionary email for teams.
             </h2>
             <div className="mt-[64px] font-semibold text-[16px]">
-                <button className="w-[230px] h-[60px] rounded-[10px] border-[#3B38FF] border-2 mr-[30px] bg-[#3B38FF] text-white hover:bg-opacity-0 duration-300">
-                    Request Demo
-                </button>
-                <button className="w-[230px] h-[60px] rounded-[10px] border-[#37335F] border-2 text-[#9EA4B2] hover:text-[#1F222C] hover:bg-white duration-500 transition-all ease-in-out">
-                    Try hoverbox for free
-                </button>
+                <ButtonBlue text="Request Demo" width="230px" heigth="60px" />
+                <ButtonGrey text="Try hoverbox for free" />
             </div>
             <div className="w-[100%] bg-[#1A1923] mt-[300px] flex flex-col justify-center items-center">
-                <img
-                    src="/img/main.jpg"
-                    alt="mail"
-                    className="w-[1170px] h-[741px] relative top-[-170px]"
+                <div>
+                    <img
+                        src="/img/main.jpg"
+                        alt="mail"
+                        className="w-[1170px] h-[741px] relative top-[-170px] hover:scale-105 duration-300"
+                    />
+                    <img
+                        src="/img/main-company.svg"
+                        alt="company"
+                        className="hover:scale-105 duration-300"
+                    />
+                </div>
+                <ButtonGrey
+                    text="Our customers"
+                    styles="mt-[60px] mb-[130px]"
                 />
-                <img src="/img/main-company.svg" alt="company" />
-                <button className="mt-[60px] mb-[130px] w-[230px] h-[60px] rounded-[10px] border-[#37335F] border-2 text-[#9EA4B2] hover:text-[#1F222C] hover:bg-white duration-500 transition-all ease-in-out">
-                    Our customers
-                </button>
             </div>
         </main>
     );
