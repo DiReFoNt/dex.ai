@@ -21,9 +21,11 @@ const NavBar = (): React.ReactElement => {
                     src="/img/logo.svg"
                 />
             </a>
-            <div className="text-[16px] text-[#F2F2F2] font-semibold leading-normal "
-            data-aos="fade"
-            data-aos-duration="2000">
+            <div
+                className="text-[16px] text-[#F2F2F2] font-semibold leading-normal "
+                data-aos="fade"
+                data-aos-duration="2000"
+            >
                 <a href="#" className="nav-button">
                     Product
                 </a>

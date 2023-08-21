@@ -1,13 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { NavBar } from "./index";
 import { ButtonBlue, ButtonGrey } from "../UI/index";
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Main: React.FC = () => {
-    useEffect(() => {
-        AOS.init();
-    }, []);
     return (
         <main className="bg-[#1F222C]  flex flex-col items-center">
             <NavBar />
@@ -46,7 +42,7 @@ const Main: React.FC = () => {
                 />
             </div>
             <div className="w-[100%] bg-[#1A1923] mt-[300px] pb-[130px] flex flex-col justify-center items-center">
-                <div data-aos="fade-up" data-aos-duration="1500">
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay='100'>
                     <img
                         src="/img/main.jpg"
                         alt="mail"

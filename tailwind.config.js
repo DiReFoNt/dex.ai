@@ -3,13 +3,11 @@ module.exports = {
     content: ["./src/**/*.{js,jsx,ts,tsx}"],
     theme: {
         extend: {
-            colors:{
-
+            colors: {},
+            transitionProperty: {
+                myTransition: "all 0.3s ",
             },
-            transitionProperty:{
-                'myTransition': 'all 0.3s '
-            }
         },
     },
-    plugins: [],
+    plugins: [require("@tailwindcss/forms")],
 };

@@ -1,12 +1,14 @@
 import React from "react";
 import { MyTitle } from "../UI/index";
 
-const SectionNextDecision = () => {
+
+const SectionNextDecision = (): React.ReactElement => {
     return (
         <section className="bg-[#0D0C16] flex justify-center items-center pb-[80px]">
             <div
                 className="mr-16 relative w-[700px] h-[800px]"
                 data-aos="fade-left"
+                data-aos-delay="1000"
                 data-aos-duration="1300"
             >
                 <img

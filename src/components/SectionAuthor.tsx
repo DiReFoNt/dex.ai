@@ -1,6 +1,6 @@
 import React from "react";
 
-const SectionAuthor = () => {
+const SectionAuthor = (): React.ReactElement => {
     return (
         <div className="bg-[#0D0C16] flex justify-center items-center p-[130px]">
             <img src="/img/author.svg" alt="author" className="img-anim" />
@@ -18,8 +18,11 @@ const SectionAuthor = () => {
                     >
                         Jordam Ghomel
                     </p>
-                    <p className="mt-3 text-[#F2F2F2] text-[16px] font-normal" data-aos="fade-up"
-                        data-aos-duration="1500">
+                    <p
+                        className="mt-3 text-[#F2F2F2] text-[16px] font-normal"
+                        data-aos="fade-up"
+                        data-aos-duration="1500"
+                    >
                         Designr manager at Broq
                     </p>
                 </div>
