@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const NavBar = (): React.ReactElement => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <nav className="flex flex-row flex-nowrap pt-[77px] items-center justify-evenly">
             <a
                 href="#"
-                className="mr-[250px] animate__animated animate__lightSpeedInLeft animate__delay-1s"
+                className="mr-[250px]"
+                data-aos="fade"
+                data-aos-duration="2000"
             >
                 <img
                     className="w-[202px] h-[44px] hover:scale-110 duration-300"
@@ -13,7 +21,9 @@ const NavBar = (): React.ReactElement => {
                     src="/img/logo.svg"
                 />
             </a>
-            <div className="text-[16px] text-[#F2F2F2] font-semibold leading-normal animate__animated animate__lightSpeedInRight animate__delay-1s">
+            <div className="text-[16px] text-[#F2F2F2] font-semibold leading-normal "
+            data-aos="fade"
+            data-aos-duration="2000">
                 <a href="#" className="nav-button">
                     Product
                 </a>

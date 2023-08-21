@@ -49,3 +49,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 Tasks:
 Create slider with customers
 Use Animate.css
+USE AOS

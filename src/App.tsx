@@ -1,10 +1,13 @@
 import React from "react";
-import { Main } from "./components/index";
+import { Main, SectionNextDecision, SectionMultiply, SectionAuthor } from "./components/index";
 
 function App() : React.ReactElement {
     return (
         <div className="">
             <Main/>
+            <SectionNextDecision/>
+            <SectionMultiply/>
+            <SectionAuthor/>
         </div>
     );
 }

@@ -6,6 +6,7 @@
 @layer base {
     html {
         font-family: Raleway;
+        background-color: #1f222c;
     }
 }
 * {
@@ -22,6 +23,22 @@
         @apply rounded-[10px] border-[#3B38FF] border-2 mr-[30px] bg-[#3B38FF] text-white hover:bg-opacity-0 duration-300;
     }
     .grey-button {
-        @apply rounded-[10px] border-[#37335F] border-2 text-[#9EA4B2] hover:text-[#1F222C] hover:bg-white duration-500 transition-all ease-in-out
+        @apply rounded-[10px] border-[#37335F] border-2 text-[#9EA4B2] hover:text-[#1F222C] hover:bg-white duration-500 transition-all ease-in-out;
     }
+    .img-anim {
+        @apply hover:scale-105 duration-300;
+    }
+    .typewriter {
+        overflow: hidden;
+        border-right: 0.15em solid orange;
+        white-space: wrap;
+        animation: blink-caret .75s step-end infinite;
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+      }
 }
