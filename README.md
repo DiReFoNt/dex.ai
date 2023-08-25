@@ -48,3 +48,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Tasks:
 Create screen video, and convert to format .gif, place to readme.md
+create component Footer

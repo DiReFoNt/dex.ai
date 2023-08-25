@@ -1,5 +1,5 @@
 import React from "react";
-import { Subscribe } from "./index";
+import { Subscribe } from "../UI/index";
 
 const SectionSubscribe = (): React.ReactElement => {
     return (
