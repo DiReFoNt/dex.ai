@@ -2,7 +2,7 @@ import React from "react";
 
 const MyLogin = () => {
     return (
-        <form className="w-[470px] py-[190px] flex flex-col items-center">
+        <form className="w-[470px] pt-[190px] flex flex-col items-center">
             <p className="text-center text-[52px] font-bold text-[#F2F2F2]">
                 Start your free trial
             </p>

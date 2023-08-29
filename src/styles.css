@@ -19,6 +19,9 @@
     .nav-button {
         @apply mr-[50px] hover:opacity-75 duration-300;
     }
+    .footer-link {
+        @apply text-[#797C84] text-[18px] font-normal mt-[30px] mr-[100px]  hover:text-[#F2F2F2] duration-300;
+    }
     .blue-button {
         @apply rounded-[10px] border-[#3B38FF] border-2 mr-[30px] bg-[#3B38FF] text-white hover:bg-opacity-0 duration-300;
     }
@@ -32,13 +35,18 @@
         overflow: hidden;
         border-right: 0.15em solid orange;
         white-space: wrap;
-        animation: blink-caret .75s step-end infinite;
+        animation: blink-caret 0.75s step-end infinite;
         font-size: 1.6rem;
         width: 100%;
     }
 
     @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: orange; }
-      }
+        from,
+        to {
+            border-color: transparent;
+        }
+        50% {
+            border-color: orange;
+        }
+    }
 }
