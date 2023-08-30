@@ -20,7 +20,7 @@ function App(): React.ReactElement {
             <SectionStatistic />
             <SectionSubscribe />
             <SectionLogin />
-            <Footer/>
+            <Footer />
         </div>
     );
 }

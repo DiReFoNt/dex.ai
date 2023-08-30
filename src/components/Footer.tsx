@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = (): React.ReactElement => {
     return (
         <section className="w-[100%] flex flex-col justify-center items-center py-[130px]">
             <div className=" w-[1200px] flex flex-row justify-center border-t-2 border-[#0D0C16] pt-[120px]">

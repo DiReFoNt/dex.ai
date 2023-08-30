@@ -1,7 +1,6 @@
 import React from "react";
 import { MyTitle } from "../UI/index";
 
-
 const SectionNextDecision = (): React.ReactElement => {
     return (
         <section className="bg-[#0D0C16] flex justify-center items-center pb-[80px]">
