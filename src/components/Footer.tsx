@@ -5,7 +5,7 @@ const Footer = (): React.ReactElement => {
         <section className="w-[100%] flex flex-col justify-center items-center py-[130px]">
             <div className=" w-[1200px] flex flex-row justify-center border-t-2 border-[#0D0C16] pt-[120px]">
                 <div className="w-[270px] mr-[130px] ml-[50px]">
-                    <a href="#" className="">
+                    <a href="#">
                         <img
                             className="w-[202px] h-[44px] hover:scale-110 duration-300"
                             alt="logo"

@@ -19,7 +19,6 @@ const ButtonBlue = ({
 
     return (
         <button className={claz}>
-            {" "}
             <a href={link}>{text}</a>
         </button>
     );

@@ -12,7 +12,7 @@ import {
 
 function App(): React.ReactElement {
     return (
-        <div className="">
+        <div>
             <Main />
             <SectionNextDecision />
             <SectionMultiply />

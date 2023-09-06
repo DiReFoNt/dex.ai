@@ -23,7 +23,7 @@ const SectionAuthor = (): React.ReactElement => {
                         data-aos="fade-up"
                         data-aos-duration="1500"
                     >
-                        Designr manager at Broq
+                        Designer manager at Broq
                     </p>
                 </div>
             </div>

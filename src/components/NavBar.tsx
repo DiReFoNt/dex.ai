@@ -38,11 +38,11 @@ const NavBar = (): React.ReactElement => {
                 <a href="#" className="nav-button">
                     Community
                 </a>
-                <a href="#" className="nav-button">
+                <a href="#login" className="nav-button">
                     Log in
                 </a>
                 <button className="w-[150px] h-[55px] bg-white flex-shrink-0 rounded-[10px] text-[#1F222C] border-white border-2 hover:bg-[#1F222C] hover:text-white duration-300">
-                    <a href="#">Sign Up</a>
+                    <a href="#login">Sign Up</a>
                 </button>
             </div>
         </nav>

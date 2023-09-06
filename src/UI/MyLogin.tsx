@@ -23,7 +23,7 @@ const MyLogin = () => {
                 Create account
             </button>
             <p className="text-[#797C84] text-[16px] font-normal mt-[46px]">
-                Already have an account?{" "}
+                Already have an account?
                 <a className="text-[#F2F2F2] hover:opacity-75 duration-300" href="#">
                     Log in
                 </a>
