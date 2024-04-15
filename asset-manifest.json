@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Hoverbox/static/css/main.e1ce78ff.css",
+    "main.js": "/Hoverbox/static/js/main.f00a6c28.js",
+    "index.html": "/Hoverbox/index.html",
+    "main.e1ce78ff.css.map": "/Hoverbox/static/css/main.e1ce78ff.css.map",
+    "main.f00a6c28.js.map": "/Hoverbox/static/js/main.f00a6c28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1ce78ff.css",
+    "static/js/main.f00a6c28.js"
+  ]
+}
